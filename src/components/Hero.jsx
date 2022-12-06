@@ -21,7 +21,7 @@ const Hero = () => {
             </p>
 
             <form action="" class="hero-form">
-              {/* <input type="email" name="email" required placeholder="Enter Your Email" class="email-field" /> */}
+              <input type="email" name="email" required placeholder="Enter Your Email" class="email-field" />
 
               <button type="submit" class="btn btn-primary">Subscribe</button>
             </form>
