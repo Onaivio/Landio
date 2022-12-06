@@ -1,7 +1,14 @@
 import React from 'react'
 import Logo from '../assets/images/logo.svg'
 
+
 const Navbar = () => {
+    const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+    const header = document.querySelector("[data-header]");
+
+    navToggleBtn.addEventListener("click", function () {
+        header.classList.toggle("active");
+    });
   return (
     <header class="header" data-header>
     <div class="container">
@@ -26,7 +33,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Pricing</a>
+            <a href="#pricing" class="navbar-link">Pricing</a>
           </li>
 
           <li>
@@ -40,9 +47,9 @@ const Navbar = () => {
         </ul>
 
         <div class="header-actions">
-          <a href="#" class="header-action-link">Log in</a>
+          <a href="#login" class="header-action-link">Log in</a>
 
-          <a href="#" class="header-action-link">Register</a>
+          <a href="#register" class="header-action-link">Register</a>
         </div>
       </nav>
 
