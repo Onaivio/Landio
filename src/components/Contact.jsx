@@ -50,7 +50,7 @@ const Contact = () => {
             <ul className="contact-list">
 
               <li>
-                <a href="mailto:support@website.com" className="contact-link">
+                <a href="mailto:onaivio220@gmail.com" className="contact-link">
                   <ion-icon name="mail-outline"></ion-icon>
 
                   <span>: onaivio220@gmail.com</span>
@@ -58,7 +58,7 @@ const Contact = () => {
               </li>
 
               <li>
-                <a href="#" className="contact-link">
+                <a href="onaivi-portfolio.vercel.app" className="contact-link">
                   <ion-icon name="globe-outline"></ion-icon>
 
                   <span>: www.onaivi-portfolio.vercel.app</span>
@@ -82,7 +82,7 @@ const Contact = () => {
               </li>
 
               <li>
-                <a href="#" className="contact-link">
+                <a href="onaivi-portfolio.vercel.app" className="contact-link">
                   <ion-icon name="location-outline"></ion-icon>
 
                   <address>: No. 64 Ahmadu Bello Way, Kano</address>
