@@ -18,25 +18,25 @@ const Footer = () => {
 
               <ul class="social-list">
                 <li>
-                  <a href="#" class="social-link">
+                  <a href="https://www.facebook.com/profile.php?id=100071660391192" class="social-link">
                     <ion-icon name="logo-facebook"></ion-icon>
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="social-link">
+                  <a href="https://twitter.com/OkomayinOnaivi" class="social-link">
                     <ion-icon name="logo-twitter"></ion-icon>
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="social-link">
+                  <a href="https://www.instagram.com/isaaccodetech/" class="social-link">
                     <ion-icon name="logo-instagram"></ion-icon>
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="social-link">
+                  <a href="https://www.linkedin.com/in/onaivi-okomayin-732b82241/" class="social-link">
                     <ion-icon name="logo-linkedin"></ion-icon>
                   </a>
                 </li>
