@@ -53,7 +53,7 @@ const Contact = () => {
                 <a href="mailto:support@website.com" className="contact-link">
                   <ion-icon name="mail-outline"></ion-icon>
 
-                  <span>: support@website.com</span>
+                  <span>: onaivio220@gmail.com</span>
                 </a>
               </li>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                 <a href="#" className="contact-link">
                   <ion-icon name="globe-outline"></ion-icon>
 
-                  <span>: www.website.com</span>
+                  <span>: www.onaivi-portfolio.vercel.app</span>
                 </a>
               </li>
 
@@ -69,7 +69,7 @@ const Contact = () => {
                 <a href="tel:+0011234567890" className="contact-link">
                   <ion-icon name="call-outline"></ion-icon>
 
-                  <span>: (+001) 123 456 7890</span>
+                  <span>: (+234) 81 4690 8277</span>
                 </a>
               </li>
 
@@ -85,7 +85,7 @@ const Contact = () => {
                 <a href="#" className="contact-link">
                   <ion-icon name="location-outline"></ion-icon>
 
-                  <address>: 1644 Deer Ridge Drive Rochelle Park, NJ 07662</address>
+                  <address>: No. 64 Ahmadu Bello Way, Kano</address>
                 </a>
               </li>
 
