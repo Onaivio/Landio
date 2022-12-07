@@ -19,7 +19,7 @@ const Blog = () => {
               <div className="blog-card">
 
                 <figure className="blog-banner">
-                  <img src="./assets/images/blog-banner-1.jpg" alt="Best Traveling Place" />
+                  <img src="./blog-banner-1.jpg" alt="Best Traveling Place" />
                 </figure>
 
                 <div className="blog-meta">
@@ -59,7 +59,7 @@ const Blog = () => {
               <div className="blog-card">
 
                 <figure className="blog-banner">
-                  <img src="./assets/images/blog-banner-2.jpg" alt="Private Meeting Room" />
+                  <img src="./blog-banner-2.jpg" alt="Private Meeting Room" />
                 </figure>
 
                 <div className="blog-meta">
