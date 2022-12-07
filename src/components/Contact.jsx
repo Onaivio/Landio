@@ -3,33 +3,33 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-     <section class="contact" id="contact">
-        <div class="container">
+     <section className="contact" id="contact">
+        <div className="container">
 
-          <h2 class="h2 section-title">Contact Us</h2>
+          <h2 className="h2 section-title">Contact Us</h2>
 
-          <p class="section-text">
+          <p className="section-text">
             Et harum quidem rerum facilis est et expedita distinctio nam libero tempore cum soluta nobis eligendi
             cumque.
           </p>
 
-          <div class="contact-wrapper">
+          <div className="contact-wrapper">
 
-            <form action="" class="contact-form">
+            <form action="" className="contact-form">
 
-              <div class="wrapper-flex">
+              <div className="wrapper-flex">
 
-                <div class="input-wrapper">
+                <div className="input-wrapper">
                   <label for="name">Name*</label>
 
-                  <input type="text" name="name" id="name" required placeholder="Enter Your Name" class="input-field" />
+                  <input type="text" name="name" id="name" required placeholder="Enter Your Name" className="input-field" />
                 </div>
 
-                <div class="input-wrapper">
+                <div className="input-wrapper">
                   <label for="emai">Email*</label>
 
                   <input type="text" name="email" id="email" required placeholder="Enter Your Email"
-                    class="input-field" />
+                    className="input-field" />
                 </div>
 
               </div>
@@ -37,9 +37,9 @@ const Contact = () => {
               <label for="message">Message*</label>
 
               <textarea name="message" id="message" required placeholder="Type Your Message"
-                class="input-field"></textarea>
+                className="input-field"></textarea>
 
-              <button type="submit" class="btn btn-primary">
+              <button type="submit" className="btn btn-primary">
                 <span>Send Message</span>
 
                 <ion-icon name="paper-plane-outline"></ion-icon>
@@ -47,10 +47,10 @@ const Contact = () => {
 
             </form>
 
-            <ul class="contact-list">
+            <ul className="contact-list">
 
               <li>
-                <a href="mailto:support@website.com" class="contact-link">
+                <a href="mailto:support@website.com" className="contact-link">
                   <ion-icon name="mail-outline"></ion-icon>
 
                   <span>: support@website.com</span>
@@ -58,7 +58,7 @@ const Contact = () => {
               </li>
 
               <li>
-                <a href="#" class="contact-link">
+                <a href="#" className="contact-link">
                   <ion-icon name="globe-outline"></ion-icon>
 
                   <span>: www.website.com</span>
@@ -66,7 +66,7 @@ const Contact = () => {
               </li>
 
               <li>
-                <a href="tel:+0011234567890" class="contact-link">
+                <a href="tel:+0011234567890" className="contact-link">
                   <ion-icon name="call-outline"></ion-icon>
 
                   <span>: (+001) 123 456 7890</span>
@@ -74,7 +74,7 @@ const Contact = () => {
               </li>
 
               <li>
-                <div class="contact-link">
+                <div className="contact-link">
                   <ion-icon name="time-outline"></ion-icon>
 
                   <span>: 9:00 AM - 6:00 PM</span>
@@ -82,7 +82,7 @@ const Contact = () => {
               </li>
 
               <li>
-                <a href="#" class="contact-link">
+                <a href="#" className="contact-link">
                   <ion-icon name="location-outline"></ion-icon>
 
                   <address>: 1644 Deer Ridge Drive Rochelle Park, NJ 07662</address>
