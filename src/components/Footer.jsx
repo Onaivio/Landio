@@ -152,7 +152,7 @@ const Footer = () => {
         <div class="footer-bottom">
           <div class="container">
             <p class="copyright">
-              &copy; 2022 <a href="">codewithsadee</a>. All Right Reserved
+              &copy; 2022 <a href="onaivi-portfolio.vercel.app">onaivio.jsx</a>. All Right Reserved
             </p>
           </div>
         </div>
