@@ -18,25 +18,37 @@ const Footer = () => {
 
               <ul className="social-list">
                 <li>
-                  <a href="https://www.facebook.com/profile.php?id=100071660391192" className="social-link">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100071660391192"
+                    className="social-link"
+                  >
                     <ion-icon name="logo-facebook"></ion-icon>
                   </a>
                 </li>
 
                 <li>
-                  <a href="https://twitter.com/OkomayinOnaivi" className="social-link">
+                  <a
+                    href="https://twitter.com/OkomayinOnaivi"
+                    className="social-link"
+                  >
                     <ion-icon name="logo-twitter"></ion-icon>
                   </a>
                 </li>
 
                 <li>
-                  <a href="https://www.instagram.com/isaaccodetech/" className="social-link">
+                  <a
+                    href="https://www.instagram.com/isaaccodetech/"
+                    className="social-link"
+                  >
                     <ion-icon name="logo-instagram"></ion-icon>
                   </a>
                 </li>
 
                 <li>
-                  <a href="https://www.linkedin.com/in/onaivi-okomayin-732b82241/" className="social-link">
+                  <a
+                    href="https://www.linkedin.com/in/onaivi-okomayin-732b82241/"
+                    className="social-link"
+                  >
                     <ion-icon name="logo-linkedin"></ion-icon>
                   </a>
                 </li>
@@ -152,7 +164,8 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="container">
             <p className="copyright">
-              &copy; 2022 <a href="onaivi-portfolio.vercel.app">onaivio.jsx</a>. All Right Reserved
+              &copy; 2022 <a href="onaivi-portfolio.vercel.app">onaivio.jsx</a>.
+              All Right Reserved
             </p>
           </div>
         </div>
