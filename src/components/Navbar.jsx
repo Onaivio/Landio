@@ -1,61 +1,70 @@
-import React from 'react'
-import Logo from '../assets/images/logo.svg'
-
+import React from "react";
+import Logo from "../assets/images/logo.svg";
 
 const Navbar = () => {
-    // const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
-    // const header = document.querySelector("[data-header]");
+  // const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+  // const header = document.querySelector("[data-header]");
 
-    // navToggleBtn.addEventListener("click", function () {
-    //     header.classNameList.toggle("active");
-    // });
+  // navToggleBtn.addEventListener("click", function () {
+  //     header.classNameList.toggle("active");
+  // });
   return (
     <header className="header" data-header>
-    <div className="container">
+      <div className="container">
+        <a href="#" className="logo">
+          <img src={Logo} alt="Landio logo" />
+        </a>
 
-      <a href="#" className="logo">
-        <img src={Logo} alt="Landio logo" />
-      </a>
+        <button className="menu-toggle-btn" data-nav-toggle-btn>
+          <ion-icon name="menu-outline">menu</ion-icon>
+        </button>
 
-      <button className="menu-toggle-btn" data-nav-toggle-btn>
-        <ion-icon name="menu-outline">menu</ion-icon>
-      </button>
+        <nav className="navbar">
+          <ul className="navbar-list">
+            <li>
+              <a href="#hero" className="navbar-link">
+                Home
+              </a>
+            </li>
 
-      <nav className="navbar">
-        <ul className="navbar-list">
+            <li>
+              <a href="#features" className="navbar-link">
+                Features
+              </a>
+            </li>
 
-          <li>
-            <a href="#hero" className="navbar-link">Home</a>
-          </li>
+            <li>
+              <a href="#pricing" className="navbar-link">
+                Pricing
+              </a>
+            </li>
 
-          <li>
-            <a href="#features" className="navbar-link">Features</a>
-          </li>
+            <li>
+              <a href="#blog" className="navbar-link">
+                Blog
+              </a>
+            </li>
 
-          <li>
-            <a href="#pricing" className="navbar-link">Pricing</a>
-          </li>
+            <li>
+              <a href="#contact" className="navbar-link">
+                Contact Us
+              </a>
+            </li>
+          </ul>
 
-          <li>
-            <a href="#blog" className="navbar-link">Blog</a>
-          </li>
+          <div className="header-actions">
+            <a href="#login" className="header-action-link">
+              Log in
+            </a>
 
-          <li>
-            <a href="#contact" className="navbar-link">Contact Us</a>
-          </li>
+            <a href="#register" className="header-action-link">
+              Register
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+  );
+};
 
-        </ul>
-
-        <div className="header-actions">
-          <a href="#login" className="header-action-link">Log in</a>
-
-          <a href="#register" className="header-action-link">Register</a>
-        </div>
-      </nav>
-
-    </div>
-  </header>
-  )
-}
-
-export default Navbar
+export default Navbar;
