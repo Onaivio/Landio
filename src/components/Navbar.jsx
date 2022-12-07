@@ -3,53 +3,53 @@ import Logo from '../assets/images/logo.svg'
 
 
 const Navbar = () => {
-    const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
-    const header = document.querySelector("[data-header]");
+    // const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+    // const header = document.querySelector("[data-header]");
 
-    navToggleBtn.addEventListener("click", function () {
-        header.classList.toggle("active");
-    });
+    // navToggleBtn.addEventListener("click", function () {
+    //     header.classNameList.toggle("active");
+    // });
   return (
-    <header class="header" data-header>
-    <div class="container">
+    <header className="header" data-header>
+    <div className="container">
 
-      <a href="#" class="logo">
+      <a href="#" className="logo">
         <img src={Logo} alt="Landio logo" />
       </a>
 
-      <button class="menu-toggle-btn" data-nav-toggle-btn>
-        <ion-icon name="menu-outline"></ion-icon>
+      <button className="menu-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline">menu</ion-icon>
       </button>
 
-      <nav class="navbar">
-        <ul class="navbar-list">
+      <nav className="navbar">
+        <ul className="navbar-list">
 
           <li>
-            <a href="#hero" class="navbar-link">Home</a>
+            <a href="#hero" className="navbar-link">Home</a>
           </li>
 
           <li>
-            <a href="#features" class="navbar-link">Features</a>
+            <a href="#features" className="navbar-link">Features</a>
           </li>
 
           <li>
-            <a href="#pricing" class="navbar-link">Pricing</a>
+            <a href="#pricing" className="navbar-link">Pricing</a>
           </li>
 
           <li>
-            <a href="#blog" class="navbar-link">Blog</a>
+            <a href="#blog" className="navbar-link">Blog</a>
           </li>
 
           <li>
-            <a href="#contact" class="navbar-link">Contact Us</a>
+            <a href="#contact" className="navbar-link">Contact Us</a>
           </li>
 
         </ul>
 
-        <div class="header-actions">
-          <a href="#login" class="header-action-link">Log in</a>
+        <div className="header-actions">
+          <a href="#login" className="header-action-link">Log in</a>
 
-          <a href="#register" class="header-action-link">Register</a>
+          <a href="#register" className="header-action-link">Register</a>
         </div>
       </nav>
 

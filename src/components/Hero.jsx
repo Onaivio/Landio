@@ -6,28 +6,28 @@ const Hero = () => {
 
   return (
     <>
-     <section class="hero" id="hero">
-        <div class="container">
+     <section className="hero" id="hero">
+        <div className="container">
 
-          <div class="hero-content">
-            <h1 class="h1 hero-title">Creative Landing Page</h1>
+          <div className="hero-content">
+            <h1 className="h1 hero-title">Creative Landing Page</h1>
 
-            <p class="hero-text">
+            <p className="hero-text">
               A creative & modern landing page with Landio template & We love make things amazing.
             </p>
 
-            <p class="form-text">
+            <p className="form-text">
               <span>🥳</span> Nemo enim ipsam voluptatem quia voluptas sit aspernatur that is fugit.
             </p>
 
-            <form action="" class="hero-form">
-              <input type="email" name="email" required placeholder="Enter Your Email" class="email-field" />
+            <form action="" className="hero-form">
+              <input type="email" name="email" required placeholder="Enter Your Email" className="email-field" />
 
-              <button type="submit" class="btn btn-primary">Subscribe</button>
+              <button type="submit" className="btn btn-primary">Subscribe</button>
             </form>
           </div>
 
-          <figure class="hero-banner">
+          <figure className="hero-banner">
             <img src={HeroBanner} alt="Hero image" />
           </figure>
 
