@@ -1,5 +1,5 @@
 import React from'react';
-import { Navbar, Hero} from "./components/"
+import { Navbar, Hero, AboutUs} from "./components/"
 
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <>
      <Navbar />
      <Hero />
+     <AboutUs />
     </>
   );
 }
