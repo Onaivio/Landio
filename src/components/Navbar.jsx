@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import Logo from "../assets/images/logo.svg";
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false)
+
   return (
     <header className="header" data-header>
       <div className="container">
@@ -10,7 +12,7 @@ const Navbar = () => {
         </a>
 
         <button className="menu-toggle-btn" data-nav-toggle-btn>
-          <ion-icon name="menu-outline">menu</ion-icon>
+        {nav ? <ion-icon name="menu-outline">menu</ion-icon> : <ion-icon name="menu"></ion-icon> }   
         </button>
 
         <nav className="navbar">
