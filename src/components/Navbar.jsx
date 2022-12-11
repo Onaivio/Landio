@@ -2,12 +2,6 @@ import React from "react";
 import Logo from "../assets/images/logo.svg";
 
 const Navbar = () => {
-  // const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
-  // const header = document.querySelector("[data-header]");
-
-  // navToggleBtn.addEventListener("click", function () {
-  //     header.classNameList.toggle("active");
-  // });
   return (
     <header className="header" data-header>
       <div className="container">
